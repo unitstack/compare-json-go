@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod:*)",
+      "Bash(go build:*)",
+      "Bash(./compare-json '{\"name\":\"John\",\"age\":30}' '{\"name\":\"John\",\"age\":31}')",
+      "Bash(./compare-json -j '{\"name\":\"John\",\"age\":30}' '{\"name\":\"John\",\"age\":31}')",
+      "Bash(./compare-json -a lcs '[\"a\",\"b\",\"c\"]' '[\"a\",\"c\",\"d\"]')",
+      "Bash(go test:*)",
+      "Bash(go run:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/bytedance/Documents/code/work/compare-json"
+    ]
+  }
+}
